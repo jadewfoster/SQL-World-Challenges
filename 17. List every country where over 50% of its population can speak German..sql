@@ -3,4 +3,4 @@
 SELECT name, percentage FROM world.country co
 INNER JOIN world.countrylanguage cl ON co.code = cl.countrycode
 WHERE Language = 'German'
-and percentage > 50;
+and percentage >= 50;
